@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Activity01">
 
-    <TextView
+    <ImageView
+        android:id="@+id/ivBulb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:src="@drawable/bulboff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
