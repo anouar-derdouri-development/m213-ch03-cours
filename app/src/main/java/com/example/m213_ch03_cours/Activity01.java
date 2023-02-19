@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class Activity01 extends AppCompatActivity {
     ImageView ivBulb;
     Boolean isOff = true;
+    ImageButton ibClose;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +18,7 @@ public class Activity01 extends AppCompatActivity {
         setContentView(R.layout.activity_01);
 
         ivBulb = findViewById(R.id.ivBulb);
+        ibClose = findViewById(R.id.ibClose);
 
         ivBulb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,5 +31,7 @@ public class Activity01 extends AppCompatActivity {
                 isOff = !isOff;
             }
         });
+
+        ibClose.setOnClickListener(v -> finish());
     }
 }
