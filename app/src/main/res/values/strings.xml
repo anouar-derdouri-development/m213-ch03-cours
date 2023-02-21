@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">m213-ch03-cours</string>
+    <string name="app_name">Light</string>
+    <string name="ac01_name">First Activity</string>
 </resources>

@@ -17,6 +17,8 @@ public class Activity01 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_01);
 
+        setTitle(R.string.ac01_name);
+
         ivBulb = findViewById(R.id.ivBulb);
         ibClose = findViewById(R.id.ibClose);
 
